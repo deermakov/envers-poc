@@ -19,16 +19,6 @@ databaseChangeLog:
             type: VARCHAR(100)
             constraints:
               nullable: true
-        - column:
-            name: INN
-            type: VARCHAR(10)
-            constraints:
-              nullable: true
-        - column:
-            name: DEAL_ID
-            type: UUID
-            constraints:
-              nullable: true
     - addPrimaryKey:
         columnNames: REV
         constraintName: PK_LEGAL_ENTITY_AUD
